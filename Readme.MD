@@ -1,0 +1,1 @@
+This readme will contain the detailed instructions to create a C# wrapper by using the swigwin Windows examples.
