@@ -1,7 +1,6 @@
-/* File : example.i */
 %module example
-
-%inline %{
-extern int    gcd(int x, int y);
-extern double Foo;
+%{
+    #define SWIG_FILE_WITH_INIT
+    #include "example.h"
 %}
+%include "example.h"

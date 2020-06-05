@@ -1,6 +1,5 @@
 E:\swigwin-4.0.1\Examples\csharp\simple\bin\x86\Debug\runme.exe
 E:\swigwin-4.0.1\Examples\csharp\simple\bin\x86\Debug\runme.pdb
-E:\swigwin-4.0.1\Examples\csharp\simple\obj\x86\Debug\example-cs.csprojAssemblyReference.cache
 E:\swigwin-4.0.1\Examples\csharp\simple\obj\x86\Debug\example-cs.csproj.CoreCompileInputs.cache
 E:\swigwin-4.0.1\Examples\csharp\simple\obj\x86\Debug\runme.exe
 E:\swigwin-4.0.1\Examples\csharp\simple\obj\x86\Debug\runme.pdb

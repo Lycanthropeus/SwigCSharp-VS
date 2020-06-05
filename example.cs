@@ -10,19 +10,14 @@
 
 
 public class example {
-  public static int gcd(int x, int y) {
-    int ret = examplePINVOKE.gcd(x, y);
+  public static int add(int a, int b) {
+    int ret = examplePINVOKE.add(a, b);
     return ret;
   }
 
-  public static double Foo {
-    set {
-      examplePINVOKE.Foo_set(value);
-    } 
-    get {
-      double ret = examplePINVOKE.Foo_get();
-      return ret;
-    } 
+  public static int subtract(int b, int c) {
+    int ret = examplePINVOKE.subtract(b, c);
+    return ret;
   }
 
 }

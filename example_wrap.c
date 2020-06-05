@@ -275,15 +275,15 @@ SWIGEXPORT void SWIGSTDCALL SWIGRegisterStringCallback_example(SWIG_CSharpString
 #define SWIG_contract_assert(nullreturn, expr, msg) if (!(expr)) {SWIG_CSharpSetPendingExceptionArgument(SWIG_CSharpArgumentOutOfRangeException, msg, ""); return nullreturn; } else
 
 
-extern int    gcd(int x, int y);
-extern double Foo;
+    #define SWIG_FILE_WITH_INIT
+    #include "example.h"
 
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-SWIGEXPORT int SWIGSTDCALL CSharp_gcd(int jarg1, int jarg2) {
+SWIGEXPORT int SWIGSTDCALL CSharp_add(int jarg1, int jarg2) {
   int jresult ;
   int arg1 ;
   int arg2 ;
@@ -291,25 +291,21 @@ SWIGEXPORT int SWIGSTDCALL CSharp_gcd(int jarg1, int jarg2) {
   
   arg1 = (int)jarg1; 
   arg2 = (int)jarg2; 
-  result = (int)gcd(arg1,arg2);
+  result = (int)add(arg1,arg2);
   jresult = result; 
   return jresult;
 }
 
 
-SWIGEXPORT void SWIGSTDCALL CSharp_Foo_set(double jarg1) {
-  double arg1 ;
+SWIGEXPORT int SWIGSTDCALL CSharp_subtract(int jarg1, int jarg2) {
+  int jresult ;
+  int arg1 ;
+  int arg2 ;
+  int result;
   
-  arg1 = (double)jarg1; 
-  Foo = arg1;
-}
-
-
-SWIGEXPORT double SWIGSTDCALL CSharp_Foo_get() {
-  double jresult ;
-  double result;
-  
-  result = (double)Foo;
+  arg1 = (int)jarg1; 
+  arg2 = (int)jarg2; 
+  result = (int)subtract(arg1,arg2);
   jresult = result; 
   return jresult;
 }

@@ -192,12 +192,9 @@ class examplePINVOKE {
   }
 
 
-  [global::System.Runtime.InteropServices.DllImport("example", EntryPoint="CSharp_gcd")]
-  public static extern int gcd(int jarg1, int jarg2);
+  [global::System.Runtime.InteropServices.DllImport("example", EntryPoint="CSharp_add")]
+  public static extern int add(int jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("example", EntryPoint="CSharp_Foo_set")]
-  public static extern void Foo_set(double jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("example", EntryPoint="CSharp_Foo_get")]
-  public static extern double Foo_get();
+  [global::System.Runtime.InteropServices.DllImport("example", EntryPoint="CSharp_subtract")]
+  public static extern int subtract(int jarg1, int jarg2);
 }
