@@ -1,0 +1,11 @@
+﻿  Performing Custom Build Tools
+  Invoking SWIG...
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  example_wrap.c
+  example.c
+  Generating Code...
+example.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library Win32\Debug\example.lib and object Win32\Debug\example.exp
+  example-vc.vcxproj -> E:\swigwin-4.0.1\Examples\csharp\simple\Win32\Debug\example.dll
+  Copy unmanaged dll to root directory...
+          1 file(s) copied.
